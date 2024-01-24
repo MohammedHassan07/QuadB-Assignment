@@ -6,3 +6,13 @@ In this asignment I build a home page of [hodlinfo.com](file:///G:/internshipAss
 ## Description  
 When the page loads it fetch the data from the server  
 Server get the data from other site and store it into MySQL database  
+
+## Specification  
+The client side is build using HTM, CSS and Javascript and rendered from  
+the server using handlebars (hbs)  
+The backend is implemented in Node.Js, Express.Js and Prisma is used  
+as a ORM to store the data in MySQL
+
+## Note  
+To run the project you need to create the .env with entries of  
+PORT and URL of the database 
