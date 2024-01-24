@@ -188,6 +188,11 @@ body {
     margin-top: 26px;
 }
 
+.mt-27 {
+
+    margin-top: 27px;
+}
+
 .mt-41 {
 
     margin-top: 41px;
@@ -209,6 +214,11 @@ body {
 }
 
 /* gap */
+
+.gem-5 {
+
+    gap: 5em;
+}
 .gap-12 {
 
     gap: 12px;

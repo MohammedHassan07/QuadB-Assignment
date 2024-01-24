@@ -144,18 +144,33 @@ input:checked+.slider:before {
 .hero {
 
     font-family: sans-serif;
-    color: var(--bg-5);
+    color: var(--bg-4);
 }
 
+.text-percent {
+
+    color: var(--bg-2);
+    font-family: 'Oswald';
+    font-size: 2.8em;
+}
+
+.periode {
+
+    color: var(--bg-4);
+    font-family: 'Oswald';
+    font-size: 20px;
+}
 .row, .row-head {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: var(--bg-3);
     background-color: var(--bg-5);
-    margin: 10px 0px;
-    gap: 9em;
-    padding: 12px;
+    margin: 10px 0px; 
+    gap: 7em;
+    padding: 12px 46px;
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 .row-head {
@@ -165,7 +180,11 @@ input:checked+.slider:before {
     margin: 10px 0px;
     font-size: 24px;
     gap: 5em;
-    font-family: 'Oswald';
+}
+
+.row span, .row div {
+
+    font-size: 24px;
 }
 
 .platform {
