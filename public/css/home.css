@@ -62,20 +62,48 @@ select {
     font-family: sans-serif;
 }
 
-.circle {
+.circle-container {
 
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 4px solid var(--bg-2);
-    border-left: 4px solid var(--bg-5);
     transform: rotate(90deg);
 }
 
-.circle div {
 
-    transform: rotate(-90deg);
+.timer {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
+
+.timer div {
+
+    transform: rotate(-225deg);
+}
+.circle {
+
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 5px solid transparent;
+}
+
+.time {
+    font-size: 20px;
+}
+
+#circle {
+    border-color: #00ffcc;
+    animation: rotate 100s linear infinite forwards;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
 
 /* The switch - the box around the slider */
 .switch {
